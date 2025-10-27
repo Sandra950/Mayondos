@@ -1,0 +1,58 @@
+/* General styling */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.text-brown {
+  color: #6b4226 !important;
+}
+
+/* Overlay & background */
+.overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #8b5e3c, #c49b76); /* diagonal brown gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Signup form container */
+.signup-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 400px;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* Custom button */
+.btn-custom {
+  background-color: #8b5e3c;
+  color: #fff;
+  border: none;
+}
+.btn-custom:hover {
+  background-color: #6b4226;
+}
+
+/* Canvas for water waves */
+#waves {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}

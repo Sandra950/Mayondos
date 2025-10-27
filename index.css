@@ -1,0 +1,85 @@
+/* --- General Reset --- */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --- Hero Section --- */
+.hero {
+  background: url('assets/s.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* --- Overlay for readability --- */
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+
+/* --- Hero Text --- */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-content .btn {
+  font-size: 1.1rem;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: #3f210f; /* Dark brown */
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.hero-content .btn:hover {
+  background-color: #27150b; /* Slightly darker on hover */
+  transform: translateY(-3px);
+}
+
+
+/* --- Navbar --- */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #532409 !important;
+  margin-right: 15px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #ee0d3e !important;
+}
+
+/* --- Footer --- */
+footer {
+  font-size: 0.9rem;
+}
